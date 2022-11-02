@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22277226-c88f-4b8c-9be4-a7fab162c263" name="Changes" comment="" />
+    <list default="true" id="22277226-c88f-4b8c-9be4-a7fab162c263" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +36,83 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/nastiashpyt/Sparta Global/Java SDET Academy/Week 6/api-testing/API_Testing"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.GetInfoAboutPostcodeTests">
+    <configuration name="GetInfoAboutPostcodeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.GetInfoAboutPostcodeTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetInfoAboutPostcodeTests.testHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.GetInfoAboutPostcodeTests" />
+      <option name="METHOD_NAME" value="testHeader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetInfoAboutPostcodeTests.testPostcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.GetInfoAboutPostcodeTests" />
+      <option name="METHOD_NAME" value="testPostcode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetInfoAboutPostcodeTests.testStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.GetInfoAboutPostcodeTests" />
+      <option name="METHOD_NAME" value="testStatusCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetInfoAboutPostcodeTests" />
+        <item itemvalue="JUnit.GetInfoAboutPostcodeTests.testPostcode" />
+        <item itemvalue="JUnit.GetInfoAboutPostcodeTests.testHeader" />
+        <item itemvalue="JUnit.GetInfoAboutPostcodeTests.testStatusCode" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667399474650</updated>
-      <workItem from="1667399476675" duration="693000" />
+      <workItem from="1667399476675" duration="4597000" />
     </task>
     <servers />
   </component>
