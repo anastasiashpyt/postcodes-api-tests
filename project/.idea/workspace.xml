@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22277226-c88f-4b8c-9be4-a7fab162c263" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/SimpleTests/BulkArrayOfPostcodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/SimpleTests/BulkArrayOfPostcodesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +40,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/nastiashpyt/Sparta Global/Java SDET Academy/Week 6/api-testing/API_Testing&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BulkArrayOfPostcodes.testBody">
-    <configuration name="BulkArrayOfPostcodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BulkArrayOfEmptyPostcodesTests">
+    <configuration name="BulkArrayOfEmptyPostcodesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <extension name="coverage">
         <pattern>
@@ -49,8 +50,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.BulkArrayOfPostcodes" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.BulkArrayOfEmptyPostcodesTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BulkArrayOfEmptyPostcodesTests.testBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.BulkArrayOfEmptyPostcodesTests" />
+      <option name="METHOD_NAME" value="testBody" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BulkArrayOfEmptyPostcodesTests.testStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.BulkArrayOfEmptyPostcodesTests" />
+      <option name="METHOD_NAME" value="testStatusCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BulkArrayOfPostcodesTests.testBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.BulkArrayOfPostcodesTests" />
+      <option name="METHOD_NAME" value="testBody" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,59 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BulkArrayOfPostcodes.testStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.BulkArrayOfPostcodes" />
-      <option name="METHOD_NAME" value="testStatusCode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvalidPostcodeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.InvalidPostcodeTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="randomUriTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.randomUriTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BulkArrayOfEmptyPostcodesTests" />
+        <item itemvalue="JUnit.BulkArrayOfPostcodesTests.testBody" />
+        <item itemvalue="JUnit.BulkArrayOfEmptyPostcodesTests.testBody" />
+        <item itemvalue="JUnit.BulkArrayOfEmptyPostcodesTests.testStatusCode" />
         <item itemvalue="JUnit.BulkArrayOfPostcodes.testBody" />
-        <item itemvalue="JUnit.BulkArrayOfPostcodes.testStatusCode" />
-        <item itemvalue="JUnit.BulkArrayOfPostcodes" />
-        <item itemvalue="JUnit.InvalidPostcodeTests" />
-        <item itemvalue="JUnit.randomUriTests" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +142,7 @@
       <workItem from="1667405531111" duration="516000" />
       <workItem from="1667407130072" duration="1628000" />
       <workItem from="1667408806016" duration="2000" />
-      <workItem from="1667466773733" duration="5186000" />
+      <workItem from="1667466773733" duration="6252000" />
     </task>
     <servers />
   </component>
