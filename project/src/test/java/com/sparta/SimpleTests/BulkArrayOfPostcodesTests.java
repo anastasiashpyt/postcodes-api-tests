@@ -14,9 +14,8 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.Arrays;
 
-public class BulkArrayOfPostcodes {
+public class BulkArrayOfPostcodesTests {
     private static HttpResponse<String> httpResponse = null;
     private static JSONObject jsonObject = null;
 
@@ -65,12 +64,15 @@ public class BulkArrayOfPostcodes {
     @Test
     @DisplayName("Response body contains requested postcodes")
     public void testBody() {
-        JSONArray result = (JSONArray)jsonObject.get("result");
-        JSONObject obj = (JSONObject) result.get(0);
-        Assertions.assertEquals("OX49 5NU", obj.get("query"));
-        obj = (JSONObject) result.get(1);
-        Assertions.assertEquals("M32 0JG", obj.get("query"));
-        obj = (JSONObject) result.get(2);
-        Assertions.assertEquals("NE30 1DP", obj.get("query"));
+        JSONArray resultArr = (JSONArray)jsonObject.get("result");
+        JSONObject obj = (JSONObject) resultArr.get(0);
+        JSONObject resultObj = (JSONObject) obj.get("result");
+        Assertions.assertEquals("OX49 5NU", resultObj.get("postcode"));
+        obj = (JSONObject) resultArr.get(1);
+        resultObj = (JSONObject) obj.get("result");
+        Assertions.assertEquals("M32 0JG", resultObj.get("postcode"));
+        obj = (JSONObject) resultArr.get(2);
+        resultObj = (JSONObject) obj.get("result");
+        Assertions.assertEquals("NE30 1DP", resultObj.get("postcode"));
     }
 }
