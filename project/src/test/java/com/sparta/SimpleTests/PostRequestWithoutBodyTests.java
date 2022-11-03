@@ -14,7 +14,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class APIValidatesPostcodeTests {
+public class PostRequestWithoutBodyTests {
     private static HttpResponse<String> httpResponse = null;
     private static JSONObject jsonObject = null;
 
@@ -23,7 +23,8 @@ public class APIValidatesPostcodeTests {
         HttpClient httpClient = HttpClient.newBuilder().build();
 
         HttpRequest httpRequest = HttpRequest.newBuilder()
-                .uri(URI.create("https://api.postcodes.io/postcodes/OX495NU/validate"))
+                .POST(HttpRequest.BodyPublishers.ofString(""))
+                .uri(URI.create("https://api.postcodes.io/postcodes"))
                 .setHeader("Content-type", "application/json")
                 .build();
 
@@ -44,30 +45,24 @@ public class APIValidatesPostcodeTests {
     @Test
     @DisplayName("URI Path")
     public void testURIPath() {
-        Assertions.assertEquals("/postcodes/OX495NU/validate", httpResponse.uri().getPath());
+        Assertions.assertEquals("/postcodes", httpResponse.uri().getPath());
     }
 
     @Test
     @DisplayName("Full URI")
     public void testFullURI() {
-        Assertions.assertEquals("https://api.postcodes.io/postcodes/OX495NU/validate", httpResponse.uri().toString());
+        Assertions.assertEquals("https://api.postcodes.io/postcodes", httpResponse.uri().toString());
     }
 
     @Test
-    @DisplayName("Status code is 200")
+    @DisplayName("Status code is 400")
     public void testStatusCode() {
-        Assertions.assertEquals(200L, httpResponse.statusCode());
+        Assertions.assertEquals(400L, httpResponse.statusCode());
     }
 
     @Test
-    @DisplayName("Header \"Content-Length\" equals 28")
-    public void testHeader() {
-        Assertions.assertEquals("28", httpResponse.headers().map().get("Content-Length").get(0));
-    }
-
-    @Test
-    @DisplayName("Valid postcode returns result = true")
+    @DisplayName("Error message contains \"Invalid JSON query submitted\"")
     public void testResultTrue() {
-        Assertions.assertEquals(true, jsonObject.get("result"));
+        Assertions.assertTrue(jsonObject.get("error").toString().contains("Invalid JSON query submitted"));
     }
 }

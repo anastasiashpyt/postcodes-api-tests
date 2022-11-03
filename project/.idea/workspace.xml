@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22277226-c88f-4b8c-9be4-a7fab162c263" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +31,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nastiashpyt/Sparta Global/Java SDET Academy/Week 6/api-testing/API_Testing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nastiashpyt/Sparta Global/Java SDET Academy/Week 6/api-testing/API_Testing&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.GetInfoAboutPostcodeTests">
-    <configuration name="GetInfoAboutPostcodeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.PostRequestWithoutBodyTests.testResultTrue">
+    <configuration name="APIValidatesPostcodeTests.testHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <extension name="coverage">
         <pattern>
@@ -50,29 +49,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.GetInfoAboutPostcodeTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetInfoAboutPostcodeTests.testHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.GetInfoAboutPostcodeTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.APIValidatesPostcodeTests" />
       <option name="METHOD_NAME" value="testHeader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetInfoAboutPostcodeTests.testPostcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="APIValidatesPostcodeTests.testResultTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +65,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.GetInfoAboutPostcodeTests" />
-      <option name="METHOD_NAME" value="testPostcode" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.APIValidatesPostcodeTests" />
+      <option name="METHOD_NAME" value="testResultTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetInfoAboutPostcodeTests.testStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostRequestWithoutBodyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +81,38 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.GetInfoAboutPostcodeTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.PostRequestWithoutBodyTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRequestWithoutBodyTests.testResultTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.PostRequestWithoutBodyTests" />
+      <option name="METHOD_NAME" value="testResultTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRequestWithoutBodyTests.testStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.SimpleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.SimpleTests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.SimpleTests.PostRequestWithoutBodyTests" />
       <option name="METHOD_NAME" value="testStatusCode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -106,10 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetInfoAboutPostcodeTests" />
-        <item itemvalue="JUnit.GetInfoAboutPostcodeTests.testPostcode" />
-        <item itemvalue="JUnit.GetInfoAboutPostcodeTests.testHeader" />
-        <item itemvalue="JUnit.GetInfoAboutPostcodeTests.testStatusCode" />
+        <item itemvalue="JUnit.PostRequestWithoutBodyTests.testResultTrue" />
+        <item itemvalue="JUnit.PostRequestWithoutBodyTests.testStatusCode" />
+        <item itemvalue="JUnit.PostRequestWithoutBodyTests" />
+        <item itemvalue="JUnit.APIValidatesPostcodeTests.testHeader" />
+        <item itemvalue="JUnit.APIValidatesPostcodeTests.testResultTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +137,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667399474650</updated>
-      <workItem from="1667399476675" duration="4597000" />
+      <workItem from="1667399476675" duration="5466000" />
+      <workItem from="1667405531111" duration="516000" />
+      <workItem from="1667407130072" duration="1388000" />
     </task>
     <servers />
   </component>
